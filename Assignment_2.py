@@ -49,7 +49,11 @@ def add_a_task():
             task_dificulty_active = False
         except ValueError:
             print('Sorry, your task dificulty needs to be a whole number.')
+        finally: 
             continue
+            # I understand splitting finally from except ValueError is pointless in this case
+            # I just did it to meet assignment requirements as it functions the same.
+        
         
     # appends the three values to a dictionarry to the task_list list.
     task_list.append({'name':task_name.strip(), 
