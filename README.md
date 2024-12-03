@@ -1,55 +1,33 @@
-## Overview
-In this project, you will build a functional To-Do List Application using Python from scratch. This assignment will help you strengthen your understanding of Python concepts such as syntax, data types, control structures, functions, and error handling, all while creating a practical, interactive command-line application.
+# 📝 Taskly - Your Task Management App
 
-## Project
+**Taskly** is a command-line task management application designed to help you organize and manage your daily tasks efficiently. Built entirely in Python, it allows users to add, view, and delete tasks, making it a simple yet powerful tool for task management.
 
-### In VS Code, create a .py file and complete the following requirements:
+---
 
-User Interface (UI) and Storage Method
+## 📋 Overview
 
-Build a simple Command Line Interface (CLI) that welcomes users and displays a menu with options to add, view, delete tasks, or quit the application.
+The application provides an intuitive **Command Line Interface (CLI)** with options to manage tasks interactively. Tasks are stored as dictionaries in a list, and users can provide details such as task name, description, and difficulty level.
 
-The tasks should be stored in a Python list
+---
 
-Core Features
+## 🔧 Features
 
-Add tasks
+- **Add Tasks:** Create tasks with a name, description, and difficulty (1-10 scale).
+- **View Tasks:** Display all tasks in a neatly formatted list.
+- **Delete Tasks:** Remove tasks by specifying their name.
+- **Exit Anytime:** Exit the application gracefully by typing "exit" in any input field.
 
-View tasks
+---
 
-Delete tasks
+## 🛠️ Technologies Used
 
-Quit the application
+- **Programming Language:** Python 3.x
+- **Development Environment:** Visual Studio Code
 
-User Interaction
+---
 
-Use input() to capture user selections and ensure proper input validation to handle invalid choices.
+## 🚀 How to Run
 
-## Error Handling
-Implement error handling using try, except, else, and finally blocks to catch errors
-
-Alert the user if they provide invalid input
-
-Alert the user if there are no tasks to view
-
-Alert the user if they try to delete a task that doesn't exist
-
-Alert the user if they select an option on the main menu that doesn't exist
-
-## Code Organization
-Organize your code into functions to improve clarity and maintainability. 
-
-Use descriptive function names and add comments/docstrings where necessary.
-
-Testing and Debugging
-
-Thoroughly test your application, considering edge cases such as empty lists and invalid input.
-
-## Submission Guidelines
-Ensure the code is ready to run and that all functionality, such as loops, conditionals, and functions, works as expected when executed. The goal is to have fully tested and functional code.
-
-Create a GitHub repository to host your project. Add, commit, and push your code to it
-
-Create a README.md on the repository that gives information about your project and how to run/use it
-
-Submit the repository link in Google Classroom.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mitchell-C-Bolton/Mitchell_Bolton_Assignmanet_2
