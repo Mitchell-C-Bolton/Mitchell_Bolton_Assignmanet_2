@@ -1,5 +1,6 @@
 # Initial global variables
-task_list = [{'name':"Dishes", 'description': 'Wash the dishes.', 'dificulty': 4}, {'name':"Garbage", 'description': 'Take out the garbage.', 'dificulty': 7}]
+task_list = [{'name':"Dishes", 'description': 'Wash the dishes.', 'dificulty': 4}, 
+             {'name':"Garbage", 'description': 'Take out the garbage.', 'dificulty': 7}]
 
 # Exits the applicaiton if it receives "exit" from any input box within the application.
 def exit_app(value):
